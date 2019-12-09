@@ -1,0 +1,30 @@
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Login Form</title>
+    <link rel="stylesheet" type="text/css" href="global.css">
+    <script src="Server Stuff/DistributorloginScript.js"></script>
+   </head>
+   <body>
+
+      <div class="loginForm">
+   
+          <form id="loginForm" name="loginForm" action method="get">
+          <p><h2>Distributor Login</h2></p>
+          <input type="text" name="UserName" id="usernameBox" placeholder="Username" style= "width: 250px; height: 30px; border: none; border-radius: 12px; background-color: #dae6dd; text-align: center;" value="">
+          <input type="password" name="Password" id="passwordBox" placeholder="Password" style= "width: 250px; height: 30px; border: none; border-radius: 12px; background-color: #dae6dd; text-align: center;" value="">
+          <input type="checkbox" onclick="hideShowPassword()">Show Password
+          <input type="button" name="Continue" value="Continue" class="loginButton" onclick="getInfo(this.form)" style=" width: 250px; height: 30px; background-image: linear-gradient(to left, rgb(18, 140, 240), rgb(88, 245, 234)); color: #000; font-family: cursive; border-radius: 12px; border: none;"></input>
+          <p>Forget Password?</p> 
+          <button name="DistributorSignUp" value="DistributorSignUp" id="DistSign"><a href="DistributorSignUp.html" style="text-decoration: none; color: #000;"><strong>Don't have an account? Sign Up</strong>
+          </form>
+
+      </div>     <button name="DistributorBack" value="DistributorBack" id="DistBack"><a href="index.html" style="text-decoration: none; color: #000;">back</a></button>
+      
+   </body>      
+   
+</html>
+  

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML SignUp Form</title>
+    <link rel="stylesheet" type="text/css" href="global.css">
+    <script src="Server Stuff/signupScript.js"></script>
+   </head>
+   <body>
+
+      <div class="signupForm">
+        <ul class="list">
+          <form id="signupForm" name="signupForm" action method="get">
+          <li><h2>Distributor Signup</h2></li>
+          <li><input type="text" name="Organization" id="orgBox" placeholder="Organization Name" style="border-radius: 12px;" ></li>
+          <li><input type="text" name="OrganizationAddress" id="orgAddBox" placeholder="Organization Main Address"style="border-radius: 12px;"  ></li>
+          <li><input type="text" name="OrganizationEmail" id="orgEmailBox" placeholder="Primary Email"style="border-radius: 12px;"  ></li>
+          <li><input type="text" name="OrganizationNumber" id="orgNumBox" placeholder="Primary Phone Number"style="border-radius: 12px;"  ></li>
+          <li><input type="text" name="UserName" id="usernameBox" placeholder="Username"style="border-radius: 12px;"  ></li>
+          <li><input type="password" name="Password" id="passwordBox" placeholder="Password"style="border-radius: 12px;"  ></li>
+          <li><input type="password" name="ConfirmPassword" id="confirmpasswordBox" placeholder="Confirm Password"style="border-radius: 12px;"  ></li>
+          <input type="checkbox" onclick="hideShowPassword()"style="border-radius: 12px;" >Show Password
+          <li><input type="button" name="Continue" value="Continue" class="loginButton "onclick="login(this.form)" style="background-image: linear-gradient(to left, rgb(18, 140, 240), rgb(88, 245, 234)); color: #000; font-family: cursive; border-radius: 12px;"></li>
+
+          </form>
+        </ul>   
+      </div>     <button name="DistributorSignupBack" value="DistributorSignupBack" id="DistSignBack"><a href="DistributorLogin.html" style="text-decoration: none; color: #000;">back</a></button>
+   </body>      
+   
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML SignUp Form</title>
+    <link rel="stylesheet" type="text/css" href="global.css">
+    <script src="Server Stuff/signupScript.js"></script>
+   </head>
+   <body>
+
+      <div class="signupForm">
+        <ul class="list">
+          <form id="signupForm" name="signupForm" action method="get">
+          <li><h2>User Signup</h2></li>
+          <li><input type="text" name="Full Name" id="givName" placeholder="Full Name" style="border-radius: 12px;" ></li>
+          <li><input type="text" name="Address" id="givAddress" placeholder="Address"style="border-radius: 12px;"  ></li>
+          <li><input type="text" name="Email" id="givEmail" placeholder="Email"style="border-radius: 12px;"  ></li>
+          <li><input type="text" name="Phone Number" id="givNum" placeholder="Phone Number"style="border-radius: 12px;"  ></li>
+          <li><input type="text" name="UserName" id="givUsernameBox" placeholder="Username"style="border-radius: 12px;"  ></li>
+          <li><input type="password" name="Password" id="givPasswordBox" placeholder="Password"style="border-radius: 12px;"  ></li>
+          <li><input type="password" name="ConfirmPassword" id="givConfirmPasswordBox" placeholder="Confirm Password"style="border-radius: 12px;"  ></li>
+          <input type="checkbox" onclick="hideShowPassword()"style="border-radius: 12px;" >Show Password
+          <li><input type="button" name="Continue" value="Continue" class="loginButton "onclick="login(this.form)" style="background-image: linear-gradient(to left, rgb(18, 140, 240), rgb(88, 245, 234)); color: #000; font-family: cursive; border-radius: 12px;"></li>
+
+          </form>
+        </ul>   
+      </div>     <button name="UserSignupBack" value="UserSignupBack" id="UserSignBack"><a href="UserLogin.html" style="text-decoration: none; color: #000;">back</a></button>
+   </body>      
+   
+</html>
